@@ -1,0 +1,6 @@
+2019-09-21 16:03:42.415 [main] ERROR com.ming.o2o.service.impl.ShopServiceImpl - java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+2019-09-21 16:03:42.418 [main] ERROR com.ming.o2o.service.impl.ShopServiceImpl - com.ming.o2o.exceptions.ShopOperationException: addShopImg Error:String index out of range: -1
+2019-09-21 16:05:19.711 [main] ERROR com.ming.o2o.service.impl.ShopServiceImpl - java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+2019-09-21 16:05:19.711 [main] ERROR com.ming.o2o.service.impl.ShopServiceImpl - com.ming.o2o.exceptions.ShopOperationException: addShopImg Error:String index out of range: -1
+2019-09-21 16:06:39.832 [main] ERROR com.ming.o2o.service.impl.ShopServiceImpl - java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+2019-09-21 16:06:39.833 [main] ERROR com.ming.o2o.service.impl.ShopServiceImpl - com.ming.o2o.exceptions.ShopOperationException: addShopImg Error:String index out of range: -1

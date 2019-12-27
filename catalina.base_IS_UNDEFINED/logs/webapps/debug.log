@@ -1,0 +1,30 @@
+2019-11-23 14:57:47.044 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-11-23 14:57:47.079 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-11-23 14:57:47.140 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-11-23 14:57:47.149 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-11-23 14:57:47.149 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-11-23 14:57:47.151 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-11-23 15:01:16.042 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-11-23 15:01:16.066 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-11-23 15:01:16.089 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-11-23 15:01:16.096 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-11-23 15:01:16.097 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-11-23 15:01:16.099 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-11-23 15:02:40.636 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-11-23 15:02:40.659 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-11-23 15:02:40.679 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2019-11-23 15:02:40.685 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_localauth(user_name,password,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2019-11-23 15:02:40.693 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), c029e924c1515e4f628d900dc288b999(String), 1(Long), 2019-11-23 15:02:40.684(Timestamp), 2019-11-23 15:02:40.684(Timestamp)
+2019-11-23 15:02:40.695 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2019-11-23 15:02:40.701 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2019-11-23 15:02:40.701 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2019-11-23 15:02:40.704 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2019-11-23 15:17:22.778 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_localauth SET password=?, last_edit_time=? where user_id=? AND user_name=? AND password=? 
+2019-11-23 15:17:22.801 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: e93a126e0fa227cf9e0f545bb4d2a945(String), 2019-11-23 15:17:22.739(Timestamp), 1(Long), testusername(String), 30f4d37a4ed90ddb85cdbd6886e019e0(String)
+2019-11-23 15:17:22.804 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2019-11-23 15:18:18.037 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_localauth SET password=?, last_edit_time=? where user_id=? AND user_name=? AND password=? 
+2019-11-23 15:18:18.062 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: e93a126e0fa227cf9e0f545bb4d2a945(String), 2019-11-23 15:18:18.003(Timestamp), 1(Long), testusername(String), c029e924c1515e4f628d900dc288b999(String)
+2019-11-23 15:18:18.064 [main] DEBUG com.ming.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2019-11-23 15:18:18.069 [main] DEBUG c.m.o.d.L.queryLocalUserByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.user_name, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_image, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_localauth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_name = ? AND l.password = ? 
+2019-11-23 15:18:18.069 [main] DEBUG c.m.o.d.L.queryLocalUserByUserNameAndPwd - ==> Parameters: testusername(String), e93a126e0fa227cf9e0f545bb4d2a945(String)
+2019-11-23 15:18:18.089 [main] DEBUG c.m.o.d.L.queryLocalUserByUserNameAndPwd - <==      Total: 1
